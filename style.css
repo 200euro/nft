@@ -19,7 +19,7 @@ body{
    align-items: center;
    input{
       height: 22px;
-      width: 250px;
+      width: 350px;
       border-radius: 60px;
       border: none;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.4);
@@ -46,29 +46,45 @@ gap: 30px;
    border: none;
    background-color: #007AFF1F;
    color: #007AFF;
+   font-size: 16px;
 }
 
 .wrap2{
    display: flex;
    /* flex-direction: column;  */
 font-size: 20px;
-gap: 30px;
+gap: 50px;
 
 
 }
 
 .name{
    display: flex;
+   align-items: center  ;
  gap: 10px;
+ img{
+   width: 10%;
+ }
 }
 
 .information{
-   display: flex;
+   padding: 10px;
+   /* display: flex; */
+   flex-direction: column;
 gap: 30px;
+
+
+
+}
+
+.palka{
+   border: solid 1px #C7C7CC ;
+   height: 90px;
 }
 
 .timemain{
    display: flex;
+   align-items: center;
    gap: 20px;
    p{
       padding: 2px;
@@ -78,16 +94,22 @@ gap: 30px;
 .time{
    display: flex;
    flex-direction: column;
-   gap: 20px;
+   justify-content: center;
+   gap: 18px;
+
+
 }
 
 .btn2{
+
+     
    border-radius: 45px;
    background-color: #007AFF;
    border: none;
    color: white;
  padding: 15px;
   width: 300px;
+  font-size: 16px;
 }
 
 .btn3{
@@ -96,28 +118,52 @@ gap: 30px;
    border: none;
  padding: 15px;
  width: 300px;
+ font-size: 16px;
+   
 
 }
 
 .button{
-   display: flex;
+   display: flex; 
    flex-direction: column;
+   align-items: center;
    justify-content: center;
    gap: 20px;
    padding-top: 50px;
 
+
 }
 
 .price{
-
+display: flex;
+align-items: center;
+gap: 30px;
    
+b{
+   font-size: 24px;
+}
+
+}
+
+.qwert{
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+
+
+}
+
+.p{
+   color: #8E8E93;
 }
 
 .box1{
-padding: 20px;
+padding: 25px;
    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
    display: flex;
    flex-direction: column;
+
+  
 gap: 20px;
 border-radius: 20px;
 
@@ -125,14 +171,13 @@ border-radius: 20px;
 
 .img1{
    border-radius: 20px;
-      max-width: 600px;
+      max-width: 665px;
       width: 100%;
  object-fit: cover;
 }
 
 
-.live {
-}
+
 .live__title {
    display: flex;
    justify-content: space-between;
@@ -163,41 +208,175 @@ height: 100%;
    }
    div{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: end;
       color: gray;
       margin-top: auto;
 
-      b{
+      b{    
          color: black;
       }
    }
+
+
 }
 
 .top__box{
    display: grid;
    grid-template-columns: 1fr 3fr;
-   gap: 20px;
+   
+   gap: 0px;
    border-radius: 0 0 12px 12px;
 
  padding: 20px;
    border: 1px solid rgb(216, 216, 216);
 height: 100%;
 
+img{
+   width: 70%;
+}
+
+h5{
+   padding-bottom: 10px;
+}
 div{
    div{
-      margin-top: 40px;
+      margin-top: 30px;
       display: flex; 
-      gap: 20px;
+      align-items: center;
+      gap: 13px;
    
 
       button{
-         padding: 10px;
+   padding: 10px 20px 10px 20px;
          background-color: #007AFF;
          color: white;
          border-radius: 20px;
+         border: none;
       }
    }
 }
 
+}
+
+.live__button{
+   padding: 60px;
+   display: flex;
+   justify-content: center;
+ 
+button{  
+   padding: 15px 50px 15px 50px;
+   font-size: 13px;
+   color: black;
+   background-color: white;
+border: solid 1px gray;
+   border-radius: 40px;
+}
+}
+
+.asd{
+display: flex;
+align-items: end;
+   img{
+      width: 20%;
+   }
+}
+
+.live__button2{
+   padding: 60px;
+   display: flex;
+   justify-content: center;
+ 
+button{  
+   padding: 15px 80px 15px 80px;
+   font-size: 13px;
+   color: black;
+   background-color: white;
+border: solid 1px gray;
+   border-radius: 40px;
+}
+}
+
+footer{
+   background-color: black;
+   b{
+      color: white;
+   }
+}
+
+.wrap__foot{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.foot1{
+   padding: 50px 50px 50px 50px;
+
+
+
+   h2{
+      color: white;
+   }
+
+   input{
+      width: 235px;
+      padding: 10px;
+      border-radius: 20px 20px 20px 20px;
+      background-color: #2C2C2E;
+      border: none;
+      margin-top: 40px;
+   }
+
+   button{
+      border: none;
+      padding: 10px;
+      border-radius: 20px 20px 20px 20px;   
+      background-color: #0A84FF;
+      color: white;
+   }
+}
+
+
+.foot2{
+   padding: 40px 50px 40px 50px;
+
+   h2{
+      padding: 8px;  
+    }
+
+}
+
+.rooling{
+   display: flex;
+
+   align-items: center;
+
+   h4{
+      padding: 50px; 
+   }
+}
+
+.wrap__end{
+   display: flex;
+   justify-content: space-between;
+align-items: center;
+   h2{
+      color: white;
+   }
+
+   img{
+      padding: 10px;
+   }
+}
+
+.icon{
+   display: grid 1fr 1fr;
+   align-items: center;
+}
+
+.palka2{
+   width: 100%;
+   height: 0.1px;
+   border: solid 1px gray;
 }
