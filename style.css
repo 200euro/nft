@@ -188,6 +188,7 @@ margin: 90px 0 35px;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    gap: 30px;
+   
 }
 .live__card {
    display: flex;
@@ -331,6 +332,7 @@ footer{
    button{
       border: none;
       padding: 10px;
+      margin-left: -40px;
       border-radius: 20px 20px 20px 20px;   
       background-color: #0A84FF;
       color: white;
@@ -425,7 +427,7 @@ border: 1px solid lightgray;
    }
 
    h3{
-      padding: 15px;
+      padding: 15px; 
       text-align: center;
    }
 }
